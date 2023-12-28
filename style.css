@@ -1,0 +1,146 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgba(135, 207, 235, 0.95);
+    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;                 
+}
+main {
+  width: 23rem;
+  height: 22rem;
+  background-color: white;
+  
+  
+  
+}
+.chat-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0084ffd3;
+  height: 30px;
+  width: 368px;
+  color: #ffffff;
+  margin: 0;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-right: 5%;
+}
+.close-icon {
+  font-size: 37px;
+  margin-left: 37%;
+  cursor: pointer;
+  }
+  .head-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .head-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    width: 364px;
+  }
+  .first-line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+    width: 40%;
+  }
+  .second-line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+    width: 40%; 
+  }
+  .chat-message {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid beige;
+    padding: 8px;
+    background-color: rgba(0, 0, 255, 0.137);
+    position: relative;
+  }
+  .time {
+      font-size: 16px;
+      color: #999;
+      position: absolute;
+      top: -15px;
+      left: 10px;
+  }
+.chat-message2 {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid beige;
+  padding: 8px;
+  background-color: rgba(165, 42, 42, 0.073);
+  position: relative;
+  float: right;
+}
+.time2 {
+  font-size: 16px;
+  color: #999;
+  position: absolute;
+  top: -15px;
+  right: 10px; 
+}
+.chat-message3 {
+  width: 130px;
+  margin: 10px;
+  border: 1px solid beige;
+  padding: 8px;
+  background-color: rgba(0, 0, 255, 0.137);
+  position: relative; 
+  overflow: hidden;
+  display: inline-block;
+} 
+.time3 {
+  font-size: 16px;
+  color: #999;
+  position: absolute;
+  top: -15px;
+  left: 10px;
+}
+.chat-message4 {
+  width: 200px;
+  margin-top: 50px;
+  border:1px solid beige;
+  padding: 8px;
+  background-color: rgba(255, 0, 0, 0.411);
+  float: right;
+}
+.the-last-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+  width: 100%;
+  margin-top: 9%;
+}
+.chat-box {
+  background-color: #fff;
+  width: 365px;
+  max-width: 150%;
+  display: flex;
+}
+.message-input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  flex-grow: 1;
+  outline: none;
+}
+.send-button {
+  color: blue;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
